@@ -2,7 +2,16 @@
 
 ## Table of Contents
 
--[Overview]_(#overview)
+- [Overview](#overview)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Project Outputs](#project-outputs)
+- [Project Scenario](#project-scenario)
+- [Project Objectives](#project-objectives)
+- [Project Challenge](#project-challenge)
+- [Project Deliverables](#project-deliverables)
+- [Getting Started](#getting-started)
+- [Tools and Technologies](#tools-and-technologies)
+- [Conclusion](#conclusion)
 
 
 ## Overview
