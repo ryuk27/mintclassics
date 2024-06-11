@@ -1,5 +1,10 @@
 # Mint Classics Inventory Reduction Project
 
+## Table of Contents
+
+-[Overview]_(#overview)
+
+
 ## Overview
 
 Mint Classics Company, a retailer of classic model cars and other vehicles, is considering closing one of their storage facilities. To support this data-driven business decision, the company seeks recommendations for reorganizing or reducing inventory while maintaining timely service to customers. The goal is to ensure that products can still be shipped within 24 hours of order placement.
