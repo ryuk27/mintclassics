@@ -1,19 +1,19 @@
 I conducted data analysis using SQL queries to address inventory-related business problems and formulated the following recommendations:
 
-1. **Inventory Optimization**: Reduce the inventory of products with high stock but low sales to lower storage costs and optimize resource allocation.
+1. Inventory Optimization: Reduce the inventory of products with high stock but low sales to lower storage costs and optimize resource allocation.
 
-2. **Warehouse Review**: Review warehouses with low or inactive inventory for potential closure or consolidation to cut rental costs and enhance inventory management.
+2. Warehouse Review: Review warehouses with low or inactive inventory for potential closure or consolidation to cut rental costs and enhance inventory management.
 
-3. **Product Pricing Evaluation**: Adjust prices of low-selling products to boost their attractiveness and sales.
+3. Product Pricing Evaluation: Adjust prices of low-selling products to boost their attractiveness and sales.
 
-4. **Customer Analysis**: Focus sales efforts on high-value customers by offering special incentives and tailored products.
+4. Customer Analysis: Focus sales efforts on high-value customers by offering special incentives and tailored products.
 
-5. **Employee Performance Evaluation**: Reward employees meeting or exceeding sales targets and provide training for those needing improvement.
+5. Employee Performance Evaluation: Reward employees meeting or exceeding sales targets and provide training for those needing improvement.
 
-6. **Payment Analysis**: Regularly monitor customer payment trends to mitigate credit risks and manage cash flow effectively.
+6. Payment Analysis: Regularly monitor customer payment trends to mitigate credit risks and manage cash flow effectively.
 
-7. **Product Line Review**: Evaluate and potentially improve or discontinue underperforming products to enhance overall profitability.
+7. Product Line Review: Evaluate and potentially improve or discontinue underperforming products to enhance overall profitability.
 
-8. **Credit Policy Evaluation**: Assess and adjust credit policies to address customer credit issues and reduce risks.
+8. Credit Policy Evaluation: Assess and adjust credit policies to address customer credit issues and reduce risks.
 
 Implementing these recommendations will optimize operations, improve profitability, and enhance customer service.
