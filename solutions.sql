@@ -54,8 +54,8 @@ LEFT JOIN
 GROUP BY 
     w.warehouseCode, 
     w.warehouseName
-order by 
-	totalInventory desc;
+ORDER BY
+	totalInventory DESC;
 
 
 -- 3. Is there a relationship between product prices and their sales levels? How can price adjustments impact sales?
@@ -71,8 +71,8 @@ LEFT JOIN
     mintclassics.orderdetails AS od ON p.productCode = od.productCode
 GROUP BY
     p.productCode, p.productName, p.buyPrice
-order by
-	buyPrice desc;
+ORDER BY
+	buyPrice DESC;
 
 
 -- 4. Who are the customers contributing the most to sales? How can sales efforts be focused on these valuable customers?
@@ -87,8 +87,8 @@ JOIN
     mintclassics.orders AS o ON c.customerNumber = o.customerNumber
 GROUP BY
     c.customerNumber, c.customerName
-order by
-	totalSales desc;
+ORDER BY
+	totalSales DESC;
 
 
 -- 5. How can the performance of sales employees be evaluated using sales data?
@@ -109,8 +109,8 @@ LEFT JOIN
     mintclassics.orderdetails AS od ON o.orderNumber = od.orderNumber
 GROUP BY
     e.employeeNumber, e.lastName, e.firstName, e.jobTitle
-order by
-	totalSales desc;
+ORDER BY
+	totalSales DESC;
 
 
 -- 6. How can customer payment trends be analyzed? What credit risks need to be considered, and how can cash flow be managed?
@@ -123,8 +123,8 @@ FROM
     mintclassics.customers AS c
 LEFT JOIN
     mintclassics.payments AS p ON c.customerNumber = p.customerNumber
-order by	
-	paymentAmount desc;
+ORDER BY
+	paymentAmount DESC;
 
 
 -- 7. How can the performance of various product lines be compared? Which products are the most successful, and which ones need improvement or removal?
@@ -145,7 +145,7 @@ LEFT JOIN
 GROUP BY
     p.productLine, pl.textDescription
 ORDER BY
-	salesToInventoryPercentage desc;
+	salesToInventoryPercentage DESC;
 
 
 -- 8. How can the company’s credit policies be evaluated? Are there any customers with credit issues that need to be addressed?
@@ -165,4 +165,4 @@ GROUP BY
 HAVING
     SUM(p.amount) < c.creditLimit
 ORDER BY
-	totalPayments asc;
+	totalPayments ASC;
